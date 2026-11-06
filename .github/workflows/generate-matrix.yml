@@ -1,23 +1,23 @@
-name: Generate Premium Contribution Matrix
+name: Generate Contribution Matrix
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 0 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
+
+concurrency:
+  group: contribution-matrix
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: Checkout profile repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -25,19 +25,23 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Pillow
-        run: pip install Pillow
-
       - name: Generate contribution matrix
         env:
-          GITHUB_USERNAME: abhinavprasadsingh
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
         run: python scripts/generate_matrix.py
 
-      - name: Publish animated GIF
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          force_orphan: true
+      - name: Publish to the output branch
+        env:
+          PUBLISH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          test -s dist/contribution-matrix.svg
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contribution-matrix.svg
+          git commit -q -m "Update contribution matrix"
+          git push -f "https://x-access-token:${PUBLISH_TOKEN}@github.com/${TARGET_REPO}.git" output:output

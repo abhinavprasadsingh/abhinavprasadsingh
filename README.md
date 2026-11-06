@@ -1,166 +1,57 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&section=header&text=ABHINAV%20PRASAD%20SINGH&fontSize=39&fontColor=EAFBFF&fontAlignY=38&desc=COMPUTER%20SCIENCE%20%7C%20ARTIFICIAL%20INTELLIGENCE%20%26%20MACHINE%20LEARNING&descSize=12&descAlignY=59&descColor=62E8FF&animation=fadeIn&color=0:030712,45:071827,100:063B50" width="100%" alt="Abhinav Prasad Singh cinematic banner"/>
+<img src="./assets/header.svg" width="100%" alt="Abhinav Prasad Singh - Computer Science Student, Artificial Intelligence and Machine Learning"/>
 
-<br/>
+<img src="./assets/typing.svg" width="100%" alt="Computer Science Student. Artificial Intelligence and Machine Learning. Building practical projects."/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=900&color=55E6FF&center=true&vCenter=true&width=750&height=45&lines=Exploring+Artificial+Intelligence;Building+practical+software+projects;Learning+through+experimentation;Turning+ideas+into+working+systems" alt="Animated introduction"/>
-
-<br/><br/>
-
-<a href="https://github.com/abhinavprasadsingh">
-<img src="https://img.shields.io/badge/GITHUB-ABHINAVPRASADSINGH-071827?style=for-the-badge&logo=github&logoColor=55E6FF" alt="GitHub"/>
-</a>
-<a href="https://linkedin.com/in/abhinav-p-416603377">
-<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-071827?style=for-the-badge&logo=linkedin&logoColor=55E6FF" alt="LinkedIn"/>
-</a>
+<a href="https://github.com/abhinavprasadsingh">GitHub</a> &nbsp;&middot;&nbsp; <a href="https://linkedin.com/in/abhinav-p-416603377">LinkedIn</a>
 
 </div>
 
----
+<img src="./assets/section-about.svg" width="100%" alt="01 About"/>
 
-<div align="center">
+I'm **Abhinav Prasad Singh**, a second-year B.Tech student in Computer Science and Engineering, specializing in Artificial Intelligence and Machine Learning at **SRM Institute of Science and Technology, Kattankulathur**. I expect to graduate in 2029.
 
-<sub>01 &nbsp; / &nbsp; INTRODUCTION</sub>
+I learn by building. My projects so far cover media analysis with computer vision, URL risk analysis, and web development, and I use them to strengthen my fundamentals in programming, data structures, and machine learning.
 
-# Building. Learning. Exploring.
+| | |
+|:--|:--|
+| **Education** | B.Tech, Computer Science and Engineering (AI &amp; ML) |
+| **Institution** | SRM Institute of Science and Technology, Kattankulathur |
+| **Expected graduation** | 2029 |
+| **Location** | India |
 
-</div>
+<img src="./assets/section-projects.svg" width="100%" alt="02 Selected projects"/>
 
-I'm **Abhinav Prasad Singh**, a B.Tech Computer Science student specializing in Artificial Intelligence and Machine Learning at **SRM Institute of Science and Technology**.
+<img src="./assets/project-1.svg" width="100%" alt="Project 01: DeepFake Detection System. A media inspection workspace for image and video analysis, video-frame sampling, and face localization. Python, Flask, OpenCV."/>
 
-I'm interested in understanding how software works, experimenting with new technologies, and developing practical projects.
+[Repository &#8599;](https://github.com/abhinavprasadsingh/DeepFake-Detection-System) &nbsp;&middot;&nbsp; [Live workspace &#8599;](https://deepfake-detection-system-zch2.onrender.com/)
 
-My current focus is strengthening programming fundamentals and exploring AI/ML through hands-on development.
+<img src="./assets/project-2.svg" width="100%" alt="Project 02: PhishShield. A URL analysis project exploring suspicious link patterns and explainable heuristic checks, with an optional machine-learning workflow. Python, scikit-learn."/>
 
-> Learn continuously. Build honestly. Improve consistently.
+[Repository &#8599;](https://github.com/abhinavprasadsingh/PhishShield)
 
----
+<img src="./assets/project-3.svg" width="100%" alt="Project 03: Personal Portfolio Website. My personal portfolio website for presenting my background, work, and development journey."/>
 
-<div align="center">
+[Repository &#8599;](https://github.com/abhinavprasadsingh/Personal-Portfolio-Website)
 
-<sub>02 &nbsp; / &nbsp; SELECTED WORK</sub>
+<img src="./assets/section-toolkit.svg" width="100%" alt="03 Technology toolkit"/>
 
-# Projects & Experiments
+<img src="./assets/toolkit.svg" width="100%" alt="Toolkit. Programming: Python, Java, C, C++. Development: HTML, CSS, JavaScript, Git, GitHub, Visual Studio Code. Learning: Artificial Intelligence, Machine Learning, Data Structures and Algorithms, Object-Oriented Programming, Web Development, Computer Science fundamentals."/>
 
-</div>
+<img src="./assets/section-matrix.svg" width="100%" alt="04 Contribution matrix"/>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/output/contribution-matrix.svg" width="100%" alt="Animated contribution matrix generated from my GitHub contribution calendar"/>
 
-### ◈ DeepFake Detection System
+<sub>Generated daily from my GitHub contribution calendar by a GitHub Actions workflow in this repository.</sub>
 
-A media inspection workspace for image and video analysis, video-frame sampling, and face localization.
-
-`PYTHON` `FLASK` `OPENCV`
-
-[VIEW PROJECT ↗](https://github.com/abhinavprasadsingh/DeepFake-Detection-System)
-
-[OPEN LIVE WORKSPACE ↗](https://deepfake-detection-system-zch2.onrender.com/)
-
-</td>
-<td width="50%" valign="top">
-
-### ◈ PhishShield
-
-A Python URL analysis project exploring suspicious link patterns, explainable heuristic checks, and an optional machine-learning workflow.
-
-`PYTHON` `SCIKIT-LEARN`
-
-[VIEW PROJECT ↗](https://github.com/abhinavprasadsingh/PhishShield)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ◈ Personal Portfolio
-
-A personal website project for presenting my background, work, and development journey.
-
-[VIEW PROJECT ↗](https://github.com/abhinavprasadsingh/Personal-Portfolio-Website)
-
-</td>
-<td width="50%" valign="top">
-
-### ◈ Areas of Exploration
-
-- Artificial Intelligence and Machine Learning
-- Data Structures and Algorithms
-- Object-Oriented Programming
-- Python and Java development
-- Web development fundamentals
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-<sub>03 &nbsp; / &nbsp; TECHNOLOGY</sub>
-
-# Tools I Work With
-
-</div>
-
-**Programming**
-
-`Python` &nbsp; `Java` &nbsp; `C` &nbsp; `C++`
-
-**Development**
-
-`HTML` &nbsp; `CSS` &nbsp; `JavaScript` &nbsp; `Git` &nbsp; `GitHub` &nbsp; `VS Code`
-
-**Currently learning**
-
-`Data Structures` &nbsp; `OOP` &nbsp; `AI / ML`
-
----
-
-<div align="center">
-
-<sub>04 &nbsp; / &nbsp; CONTRIBUTION HISTORY</sub>
-
-# The Consistency Matrix
-
-<img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/output/contribution-matrix.gif" width="100%" alt="Animated GitHub contribution matrix"/>
-
-<sub>A year of commits, experiments, and steady progress.</sub>
-
-</div>
-
----
-
-<div align="center">
-
-<sub>05 &nbsp; / &nbsp; CURRENT DIRECTION</sub>
-
-# What Comes Next
-
-</div>
+<img src="./assets/section-direction.svg" width="100%" alt="05 Current learning direction"/>
 
 | Focus | Direction |
 |:--|:--|
-| LEARNING | Strengthening programming fundamentals |
-| BUILDING | Practical software and AI/ML projects |
-| EXPLORING | Intelligent systems and new technologies |
-| IMPROVING | Writing cleaner, more reliable code |
+| **Learning** | Programming fundamentals, data structures and algorithms, object-oriented programming |
+| **Building** | Practical software and AI/ML projects |
+| **Exploring** | Artificial intelligence, machine learning, and web development |
+| **Improving** | Writing cleaner, more reliable code |
 
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:030712,100:00D9FF" width="100%" alt=""/>
-
-<br/>
-
-**Curiosity is the starting point. Consistency is the progress.**
-
-<br/>
-
-<sub>Designed & developed by Abhinav Prasad Singh · 2026</sub>
-
-</div>
+<img src="./assets/footer.svg" width="100%" alt="Abhinav Prasad Singh - Computer Science Student, Artificial Intelligence and Machine Learning, building practical projects"/>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Abhinav Prasad Singh">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030712"/><stop offset="1" stop-color="#05324a"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#55E6FF" stop-opacity="0"/><stop offset="0.5" stop-color="#55E6FF" stop-opacity="0.14"/><stop offset="1" stop-color="#55E6FF" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="120" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="120" fill="url(#bg)"/>
+    <rect y="0" width="260" height="120" fill="url(#beam)"><animate attributeName="x" from="-260" to="1200" dur="9s" repeatCount="indefinite"/></rect>
+  </g>
+  <rect x="1" y="1" width="1198" height="118" rx="13" fill="none" stroke="#55E6FF" stroke-opacity="0.2"/>
+  <line x1="60" y1="24" x2="1140" y2="24" stroke="#55E6FF" stroke-opacity="0.35" stroke-dasharray="2 8"><animate attributeName="stroke-dashoffset" from="0" to="-80" dur="3s" repeatCount="indefinite"/></line>
+  <g text-anchor="middle">
+    <text x="600" y="62" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAFBFF" textLength="400" lengthAdjust="spacingAndGlyphs">ABHINAV PRASAD SINGH</text>
+    <text x="600" y="90" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#91A8B8" textLength="760" lengthAdjust="spacing">COMPUTER SCIENCE STUDENT  //  ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING  //  BUILDING PRACTICAL PROJECTS</text>
+  </g>
+  <circle cy="104" r="3" fill="#00D9FF" filter="url(#glow)"><animate attributeName="cx" values="60;1140;60" dur="8s" repeatCount="indefinite"/></circle>
+</svg>

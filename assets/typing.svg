@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-label="Animated introduction">
+<defs><filter id="glow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.001;0.249;1" values="0;1;0;0" dur="18.4s" repeatCount="indefinite"/>
+<clipPath id="c0"><rect x="431" y="0" width="0" height="64"><animate attributeName="width" keyTimes="0;0.001;0.139;0.249;1" values="0;0;338;338;0" dur="18.4s" repeatCount="indefinite"/></rect></clipPath>
+<text x="431" y="40" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="22" fill="#55E6FF" textLength="338" lengthAdjust="spacing" clip-path="url(#c0)" filter="url(#glow)">&gt; Computer Science Student</text>
+<rect y="17" width="2.5" height="28" fill="#EAFBFF" x="431"><animate attributeName="x" keyTimes="0;0.001;0.139;0.249;1" values="431;431;769;769;769" dur="18.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.251;0.499;1" values="0;1;0;0" dur="18.4s" repeatCount="indefinite"/>
+<clipPath id="c1"><rect x="314" y="0" width="0" height="64"><animate attributeName="width" keyTimes="0;0.251;0.389;0.499;1" values="0;0;572;572;0" dur="18.4s" repeatCount="indefinite"/></rect></clipPath>
+<text x="314" y="40" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="22" fill="#55E6FF" textLength="572" lengthAdjust="spacing" clip-path="url(#c1)" filter="url(#glow)">&gt; Artificial Intelligence &amp; Machine Learning</text>
+<rect y="17" width="2.5" height="28" fill="#EAFBFF" x="314"><animate attributeName="x" keyTimes="0;0.251;0.389;0.499;1" values="314;314;886;886;886" dur="18.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.501;0.749;1" values="0;1;0;0" dur="18.4s" repeatCount="indefinite"/>
+<clipPath id="c2"><rect x="411.5" y="0" width="0" height="64"><animate attributeName="width" keyTimes="0;0.501;0.639;0.749;1" values="0;0;377;377;0" dur="18.4s" repeatCount="indefinite"/></rect></clipPath>
+<text x="411.5" y="40" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="22" fill="#55E6FF" textLength="377" lengthAdjust="spacing" clip-path="url(#c2)" filter="url(#glow)">&gt; Building practical projects</text>
+<rect y="17" width="2.5" height="28" fill="#EAFBFF" x="411.5"><animate attributeName="x" keyTimes="0;0.501;0.639;0.749;1" values="411.5;411.5;788.5;788.5;788.5" dur="18.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+</g>
+<g opacity="0"><animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.751;0.999;1" values="0;1;0;0" dur="18.4s" repeatCount="indefinite"/>
+<clipPath id="c3"><rect x="379" y="0" width="0" height="64"><animate attributeName="width" keyTimes="0;0.751;0.889;0.999;1" values="0;0;442;442;0" dur="18.4s" repeatCount="indefinite"/></rect></clipPath>
+<text x="379" y="40" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="22" fill="#55E6FF" textLength="442" lengthAdjust="spacing" clip-path="url(#c3)" filter="url(#glow)">&gt; Learning through experimentation</text>
+<rect y="17" width="2.5" height="28" fill="#EAFBFF" x="379"><animate attributeName="x" keyTimes="0;0.751;0.889;0.999;1" values="379;379;821;821;821" dur="18.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
