@@ -1,31 +1,37 @@
-﻿<div align="center">
+<div align="center">
 
-<img src="assets/cinematic-hero.gif" alt="APS Digital Lab — Building at the edge of intelligence" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&section=header&text=ABHINAV%20PRASAD%20SINGH&fontSize=39&fontColor=EAFBFF&fontAlignY=38&desc=ARTIFICIAL%20INTELLIGENCE%20%26%20MACHINE%20LEARNING&descSize=13&descAlignY=58&descColor=62E8FF&animation=fadeIn&color=0:030712,45:071827,100:063B50" width="100%" alt="Abhinav Prasad Singh cinematic banner"/>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/abhinav-p-416603377/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-00D9F5?style=flat-square&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/abhinavprasadsingh"><img src="https://img.shields.io/badge/GITHUB-Explore-00D9F5?style=flat-square&logo=github&logoColor=white" /></a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=55E6FF&center=true&vCenter=true&width=800&height=48&lines=Exploring+Artificial+Intelligence;Building+practical+software+projects;Learning+through+experimentation;Turning+ideas+into+working+systems" alt="Animated introduction"/>
 
-<br/><br/>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=00D9F5&center=true&vCenter=true&width=650&lines=B.Tech+CSE+(AI+%26+ML)+%40+SRMIST;Exploring+Artificial+Intelligence+%26+Software;Learning+by+building+real+projects" alt="Animated introduction" />
+<a href="https://github.com/abhinavprasadsingh">
+<img src="https://img.shields.io/badge/GITHUB-ABHINAVPRASADSINGH-071827?style=for-the-badge&logo=github&logoColor=55E6FF" alt="GitHub"/>
+</a>
+<a href="https://linkedin.com/in/abhinav-p-416603377">
+<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-071827?style=for-the-badge&logo=linkedin&logoColor=55E6FF" alt="LinkedIn"/>
+</a>
 
 </div>
 
 ---
 
-## `01` / THE PERSON BEHIND THE CODE
+## 01 / THE PERSON BEHIND THE CODE
 
-I'm a second-year **B.Tech Computer Science student specialising in Artificial Intelligence & Machine Learning** at **SRM Institute of Science and Technology**.
+I'm **Abhinav Prasad Singh**, a B.Tech Computer Science student specializing in Artificial Intelligence and Machine Learning at **SRM Institute of Science and Technology**.
 
-I enjoy exploring how software works, learning new technologies, and turning ideas into practical projects. Right now, I'm strengthening my programming and computer science fundamentals while experimenting with AI, machine learning, and web development.
+I'm interested in understanding how software works, experimenting with new technologies, and building practical projects.
 
-- **Currently learning:** Data Structures, Object-Oriented Programming, AI & Machine Learning
-- **Interested in:** Software development, intelligent systems, and cybersecurity
-- **Approach:** Learn the fundamentals. Build small. Improve continuously.
+Currently focused on strengthening my programming fundamentals and exploring AI/ML through hands-on development.
 
-## `02` / SELECTED BUILDS
+> Learn continuously. Build honestly. Improve consistently.
+
+---
+
+## 02 / SELECTED PROJECTS
 
 <table>
 <tr>
@@ -33,75 +39,104 @@ I enjoy exploring how software works, learning new technologies, and turning ide
 
 ### ◈ DeepFake Detection System
 
-A Flask-based media inspection workspace for image and video analysis, with video-frame sampling and OpenCV-based face localisation.
+A media inspection workspace for image and video analysis, video-frame sampling, and face localization.
 
-**Focus:** Python · Flask · OpenCV
+**Technology:** Python · Flask · OpenCV
 
-[Explore repository](https://github.com/abhinavprasadsingh/DeepFake-Detection-System) · [Open live workspace](https://deepfake-detection-system-zch2.onrender.com/)
+[Explore repository →](https://github.com/abhinavprasadsingh/DeepFake-Detection-System)
+
+[Open live workspace →](https://deepfake-detection-system-zch2.onrender.com/)
 
 </td>
 <td width="50%" valign="top">
 
 ### ◈ PhishShield
 
-A Python project for analysing URLs with explainable heuristic checks, alongside an optional scikit-learn model training and evaluation workflow.
+A Python URL analysis project exploring explainable heuristic checks and an optional machine-learning training workflow.
 
-**Focus:** Python · URL analysis · scikit-learn
+**Technology:** Python · scikit-learn
 
-[Explore repository](https://github.com/abhinavprasadsingh/PhishShield)
+[Explore repository →](https://github.com/abhinavprasadsingh/PhishShield)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ◈ Personal Portfolio Website
+### ◈ Personal Portfolio
 
-A personal website project created to present my background, work, and development journey.
+A personal website project presenting my work, background, and development journey.
 
-**Focus:** Web development
+**Technology:** HTML · CSS · JavaScript
 
-[Explore repository](https://github.com/abhinavprasadsingh/Personal-Portfolio-Website)
+[Explore repository →](https://github.com/abhinavprasadsingh/Personal-Portfolio-Website)
 
 </td>
 <td width="50%" valign="top">
 
-### ◈ More experiments
+### ◈ What I'm Exploring
 
-I use my repositories to practise programming, explore new concepts, and document what I learn. More projects will appear here as they become ready.
-
-**Focus:** Consistent learning · Hands-on practice
-
-[Browse all repositories](https://github.com/abhinavprasadsingh?tab=repositories)
+- Artificial Intelligence and Machine Learning
+- Python programming
+- Data Structures and Algorithms
+- Object-Oriented Programming
+- Web development fundamentals
 
 </td>
 </tr>
 </table>
 
-## `03` / TECHNOLOGY I WORK WITH
+---
+
+## 03 / TECHNOLOGY TOOLKIT
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,git,github,vscode&theme=dark" alt="Technology icons" />
+<img src="https://skillicons.dev/icons?i=python,java,cpp,c,html,css,js,git,github,vscode&theme=dark&perline=5" alt="Technology toolkit"/>
 
 </div>
 
-<p align="center">
-<sub>My current toolkit reflects the languages and tools I have used or am actively learning—not a claim of expert-level proficiency.</sub>
-</p>
+---
 
-## `04` / THE LEARNING LOG
+## 04 / CONTRIBUTION MATRIX
 
-- Building a stronger foundation in Data Structures and Object-Oriented Programming.
-- Exploring practical applications of AI and Machine Learning.
-- Improving how I design, document, and maintain software projects.
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/output/contribution-matrix.gif" width="100%" alt="Animated cyan GitHub contribution matrix"/>
+
+<sub>A visual record of consistency, experiments, and progress.</sub>
+
+</div>
+
+---
+
+## 05 / CONTRIBUTION ACTIVITY
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavprasadsingh&bg_color=030712&color=55E6FF&line=00CFFF&point=FFFFFF&area=true&area_color=063B50&hide_border=true&custom_title=THE%20BUILDING%20JOURNEY" width="100%" alt="GitHub contribution activity graph"/>
+
+</div>
+
+---
+
+## 06 / CURRENT DIRECTION
+
+```text
+LEARNING       → Strengthening programming fundamentals
+BUILDING       → Practical software and AI/ML projects
+EXPLORING      → Intelligent systems and new technologies
+IMPROVING      → Writing cleaner, more reliable code
+```
 
 ---
 
 <div align="center">
 
-**Curiosity → Code → Experiments → Progress**
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:030712,100:063B50&height=2&section=footer" width="100%" alt=""/>
 
-<sub>Designed and built with intention. Updated as the journey continues.</sub>
+**Curiosity is the starting point. Consistency is the progress.**
+
+<sub>Designed and built by Abhinav Prasad Singh · 2026</sub>
 
 </div>
