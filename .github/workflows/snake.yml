@@ -1,4 +1,4 @@
-﻿name: Generate Contribution Graph
+﻿name: Update Contribution Animation
 
 on:
   schedule:
@@ -14,6 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Generate contribution snake
         uses: Platane/snk@v3
@@ -21,7 +22,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Publish generated SVG
+      - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

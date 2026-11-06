@@ -1,133 +1,166 @@
 ﻿<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0B1020&height=150&section=header&text=ABHINAV%20PRASAD%20SINGH&fontSize=34&fontColor=E2E8F0&animation=fadeIn&fontAlignY=48" width="100%" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:111827,50:312E81,100:0F172A&height=220&section=header&text=ABHINAV%20PRASAD%20SINGH&fontSize=38&fontColor=FFFFFF&fontAlignY=45&animation=fadeIn&stroke=818CF8&strokeWidth=1" />
 
-# Building with code. Exploring with AI.
+<a href="https://readme-typing-svg.demolab.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=818CF8&center=true&vCenter=true&width=650&lines=B.Tech+CSE+(AI+%26+ML)+Student;Exploring+Artificial+Intelligence;Building+Practical+Software+Projects;Learning+Something+New+Every+Day" alt="Animated introduction" />
+</a>
 
-**B.Tech CSE (Artificial Intelligence & Machine Learning) Student**
+<br/>
 
-[GitHub](https://github.com/abhinavprasadsingh) · [LinkedIn](https://linkedin.com/in/abhinav-p-416603377)
+<a href="https://github.com/abhinavprasadsingh">
+  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" />
+</a>
+<a href="https://linkedin.com/in/abhinav-p-416603377">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+</a>
 
 </div>
 
 ---
 
-## 01 — A little about me
+## About Me
 
-Hey! I'm Abhinav, a second-year Computer Science student at **SRM Institute of Science and Technology**.
+Hello! I'm **Abhinav**, a second-year B.Tech Computer Science student specializing in Artificial Intelligence and Machine Learning at **SRM Institute of Science and Technology**.
 
-I'm interested in understanding how technology works and turning what I learn into practical projects.
+I enjoy learning how software works, exploring emerging technologies, and applying what I learn through practical projects.
 
-- Studying Computer Science with AI & ML.
-- Learning programming and problem-solving.
-- Exploring machine learning and software development.
-- Building projects to improve my practical skills.
+- 🎓 B.Tech CSE (Artificial Intelligence & Machine Learning)
+- 💻 Interested in software development and AI/ML
+- 🌱 Currently strengthening my programming and problem-solving fundamentals
+- 🔍 Exploring practical applications of technology
+- 🎯 Focused on learning, building, and improving consistently
 
-## 02 — Things I'm exploring
+---
 
-| Area | Current focus |
-|---|---|
-| Programming | Python, Java, C, C++ |
-| Computer Science | Data Structures and OOP |
-| Artificial Intelligence | Machine Learning fundamentals |
-| Development | Building and improving practical applications |
-| Tools | Git, GitHub and VS Code |
-
-## 03 — Selected projects
-
-<div align="center">
+## Current Learning
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ◈ DeepFake Detection System
-
-A media analysis project focused on identifying potentially manipulated images and videos.
-
-- Image analysis workspace
-- Video analysis workspace
-- Media authenticity exploration
-
-**Live application**
-
-[Open DeepFake Studio →](https://deepfake-detection-system-zch2.onrender.com/)
+### Computer Science
+- Data Structures and Algorithms
+- Object-Oriented Programming
+- Programming fundamentals
+- Problem-solving
 
 </td>
 <td width="50%" valign="top">
 
-### ◈ PhishShield
-
-A Python project for analysing URLs and identifying potentially suspicious or phishing links.
-
-- URL analysis
-- Explainable heuristic detection
-- Optional ML model and evaluation workflow
-
-**Source code**
-
-[Explore PhishShield →](https://github.com/abhinavprasadsingh/PhishShield)
+### Technology
+- Artificial Intelligence
+- Machine Learning fundamentals
+- Web development
+- Software project development
 
 </td>
 </tr>
 </table>
 
-</div>
+---
 
-## 04 — Technologies I use
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>DeepFake Detection System</h3>
+
+<p>A web-based media intelligence workspace for image and video analysis, focused on exploring media authenticity and potential manipulation.</p>
+
+<p>
+<img src="https://img.shields.io/badge/Focus-AI%20%26%20Media-6366F1?style=flat-square" />
+<img src="https://img.shields.io/badge/Interface-Web%20Application-0EA5E9?style=flat-square" />
+</p>
+
+<a href="https://deepfake-detection-system-zch2.onrender.com/">
+  <img src="https://img.shields.io/badge/OPEN%20LIVE%20PROJECT-Visit%20Application-4F46E5?style=for-the-badge" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>PhishShield</h3>
+
+<p>A Python-based project that analyses URLs to identify potentially suspicious or phishing links, with explainable heuristic detection and an optional machine-learning workflow.</p>
+
+<p>
+<img src="https://img.shields.io/badge/Focus-Cybersecurity-0F766E?style=flat-square" />
+<img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square" />
+</p>
+
+<a href="https://github.com/abhinavprasadsingh/PhishShield">
+  <img src="https://img.shields.io/badge/VIEW%20SOURCE-Explore%20Repository-181717?style=for-the-badge&logo=github" />
+</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technical Skills
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+### Programming Languages
 
-</div>
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp" />
 
-## 05 — My learning roadmap
+### Tools and Development
 
-- [x] Explore programming languages
-- [x] Build practical development projects
-- [ ] Strengthen Data Structures and Algorithms
-- [ ] Improve Object-Oriented Programming
-- [ ] Learn more about Machine Learning
-- [ ] Build and document more projects
-
-## 06 — GitHub activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=abhinavprasadsingh&show_icons=true&theme=transparent&hide_border=true&title_color=818CF8&icon_color=818CF8&text_color=94A3B8" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhinavprasadsingh&layout=compact&theme=transparent&hide_border=true&title_color=818CF8&text_color=94A3B8" />
-
-<img src="https://streak-stats.demolab.com?user=abhinavprasadsingh&theme=transparent&hide_border=true&ring=818CF8&fire=818CF8&currStreakLabel=818CF8" />
-
-</div>
-
-## 07 — Find me here
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-My_Projects-181717?style=for-the-badge&logo=github)](https://github.com/abhinavprasadsingh)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/abhinav-p-416603377)
+<img src="https://skillicons.dev/icons?i=git,github,vscode,html,css" />
 
 </div>
 
 ---
 
+## GitHub Overview
+
 <div align="center">
 
-**LEARN · BUILD · EXPERIMENT · IMPROVE**
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=abhinavprasadsingh&show_icons=true&hide_border=true&bg_color=0D1117&title_color=818CF8&icon_color=818CF8&text_color=C9D1D9" />
 
-*Still learning, still building, and just getting started.*
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhinavprasadsingh&layout=compact&hide_border=true&bg_color=0D1117&title_color=818CF8&text_color=C9D1D9" />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0B1020&height=65&section=footer" width="100%" />
+<br/>
+
+<img width="75%" src="https://streak-stats.demolab.com?user=abhinavprasadsingh&hide_border=true&background=0D1117&ring=818CF8&fire=818CF8&currStreakLabel=818CF8&sideLabels=C9D1D9&dates=8B949E" />
+
+</div>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=abhinavprasadsingh&bg_color=0D1117&color=C9D1D9&line=818CF8&point=FFFFFF&area=true&hide_border=true" />
+
+<img width="100%" src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/output/github-contribution-grid-snake.svg" alt="Contribution animation" />
+
+</div>
+
+---
+
+## Connect
+
+<div align="center">
+
+<a href="https://github.com/abhinavprasadsingh">
+  <img src="https://img.shields.io/badge/GitHub-Abhinav-181717?style=for-the-badge&logo=github" />
+</a>
+
+<a href="https://linkedin.com/in/abhinav-p-416603377">
+  <img src="https://img.shields.io/badge/LinkedIn-Abhinav-0A66C2?style=for-the-badge&logo=linkedin" />
+</a>
+
+<br/><br/>
+
+**Learn continuously. Build thoughtfully. Improve every day.**
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,50:312E81,100:0F172A&height=110&section=footer" />
 
 </div>
