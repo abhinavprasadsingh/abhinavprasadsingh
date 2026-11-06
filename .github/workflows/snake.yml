@@ -1,4 +1,4 @@
-﻿name: Generate Contribution Snake
+﻿name: Generate Contribution Graph
 
 on:
   schedule:
@@ -21,7 +21,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Publish to output branch
+      - name: Publish generated SVG
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
