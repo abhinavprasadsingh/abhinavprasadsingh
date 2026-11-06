@@ -1,6 +1,6 @@
 <!--AVATAR:START-->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/main/assets/avatar-card.svg?v=1793999570" width="100%" alt="Abhinav Prasad Singh" />
+  <img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/main/assets/avatar-card.svg?v=1793999631" width="100%" alt="Abhinav Prasad Singh" />
 </div>
 <!--AVATAR:END-->
 
