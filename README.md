@@ -1,3 +1,9 @@
+<!--AVATAR:START-->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/main/assets/avatar.svg?v=1793998761" width="220" alt="Abhinav Prasad Singh" />
+</div>
+<!--AVATAR:END-->
+
 <div align="center">
 
 <img src="./assets/header.svg" width="100%" alt="Abhinav Prasad Singh - Computer Science Student, Artificial Intelligence and Machine Learning"/>
