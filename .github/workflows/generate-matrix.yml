@@ -1,4 +1,4 @@
-name: Generate Animated Contribution Matrix
+name: Generate Premium Contribution Matrix
 
 on:
   schedule:
@@ -12,7 +12,7 @@ permissions:
   contents: write
 
 jobs:
-  generate-matrix:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install image library
+      - name: Install Pillow
         run: pip install Pillow
 
       - name: Generate contribution matrix
@@ -34,10 +34,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_matrix.py
 
-      - name: Publish animated matrix
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+      - name: Publish animated GIF
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
