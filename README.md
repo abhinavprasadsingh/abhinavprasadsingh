@@ -1,101 +1,107 @@
 ﻿<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:101827,45:243B63,100:0E7490&height=190&section=header&text=Abhinav%20Prasad%20Singh&fontSize=36&fontColor=F8FAFC&fontAlignY=38&animation=fadeIn&desc=B.Tech%20CSE%20%7C%20Artificial%20Intelligence%20%26%20Machine%20Learning&descAlignY=62&descSize=14&descColor=CBD5E1" width="100%" alt="Profile banner" />
+<img src="assets/cinematic-hero.gif" alt="APS Digital Lab — Building at the edge of intelligence" width="100%" />
 
-<a href="https://readme-typing-svg.demolab.com">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2800&pause=1100&color=67E8F9&center=true&vCenter=true&width=620&lines=Learning+by+building.;Exploring+AI%2C+software+and+cybersecurity.;Turning+ideas+into+practical+projects." alt="Animated introduction" />
-</a>
+<br/>
 
-<p>
-<a href="https://github.com/abhinavprasadsingh">GitHub</a>
-&nbsp; · &nbsp;
-<a href="https://linkedin.com/in/abhinav-p-416603377">LinkedIn</a>
-</p>
+<a href="https://www.linkedin.com/in/abhinav-p-416603377/"><img src="https://img.shields.io/badge/LINKEDIN-Connect-00D9F5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/abhinavprasadsingh"><img src="https://img.shields.io/badge/GITHUB-Explore-00D9F5?style=flat-square&logo=github&logoColor=white" /></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=00D9F5&center=true&vCenter=true&width=650&lines=B.Tech+CSE+(AI+%26+ML)+%40+SRMIST;Exploring+Artificial+Intelligence+%26+Software;Learning+by+building+real+projects" alt="Animated introduction" />
 
 </div>
 
 ---
 
-## About
+## `01` / THE PERSON BEHIND THE CODE
 
-I'm **Abhinav**, a second-year B.Tech Computer Science student specialising in **Artificial Intelligence and Machine Learning** at **SRM Institute of Science and Technology**.
+I'm a second-year **B.Tech Computer Science student specialising in Artificial Intelligence & Machine Learning** at **SRM Institute of Science and Technology**.
 
-I enjoy learning how technology works and applying that knowledge through practical software projects. I'm currently strengthening my programming, problem-solving and development fundamentals.
+I enjoy exploring how software works, learning new technologies, and turning ideas into practical projects. Right now, I'm strengthening my programming and computer science fundamentals while experimenting with AI, machine learning, and web development.
 
-- 🎓 B.Tech CSE (AI & ML), SRMIST
-- 💻 Interested in software development, AI/ML and cybersecurity
-- 🌱 Currently learning Data Structures, OOP and machine-learning fundamentals
-- 🧪 I learn by experimenting, building and improving projects
+- **Currently learning:** Data Structures, Object-Oriented Programming, AI & Machine Learning
+- **Interested in:** Software development, intelligent systems, and cybersecurity
+- **Approach:** Learn the fundamentals. Build small. Improve continuously.
 
-## Featured projects
+## `02` / SELECTED BUILDS
 
-### 01. DeepFake Studio
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A Flask-based media inspection application with image analysis, video frame sampling and OpenCV face localisation.
+### ◈ DeepFake Detection System
 
-**Technologies:** Python · Flask · OpenCV · HTML/CSS
+A Flask-based media inspection workspace for image and video analysis, with video-frame sampling and OpenCV-based face localisation.
 
-**Important:** Face localisation is not deepfake classification. The current application does not claim to predict whether media is real or fake.
+**Focus:** Python · Flask · OpenCV
 
-- [Source code](https://github.com/abhinavprasadsingh/DeepFake-Detection-System)
-- [Live application](https://deepfake-detection-system-zch2.onrender.com/)
+[Explore repository](https://github.com/abhinavprasadsingh/DeepFake-Detection-System) · [Open live workspace](https://deepfake-detection-system-zch2.onrender.com/)
 
----
+</td>
+<td width="50%" valign="top">
 
-### 02. PhishShield
+### ◈ PhishShield
 
-A Python URL-analysis project that highlights suspicious link patterns using explainable heuristic checks, with an optional scikit-learn model workflow.
+A Python project for analysing URLs with explainable heuristic checks, alongside an optional scikit-learn model training and evaluation workflow.
 
-**Technologies:** Python · Pandas · scikit-learn · Streamlit
+**Focus:** Python · URL analysis · scikit-learn
 
-The trained model artifact is not committed by default; the repository documents its training and evaluation workflow.
+[Explore repository](https://github.com/abhinavprasadsingh/PhishShield)
 
-- [View repository](https://github.com/abhinavprasadsingh/PhishShield)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### ◈ Personal Portfolio Website
 
-### 03. Personal Portfolio Website
+A personal website project created to present my background, work, and development journey.
 
-A responsive personal portfolio built to practise front-end development, with sections for an introduction, skills, projects and contact information.
+**Focus:** Web development
 
-**Technologies:** HTML · CSS · JavaScript
+[Explore repository](https://github.com/abhinavprasadsingh/Personal-Portfolio-Website)
 
-- [View repository](https://github.com/abhinavprasadsingh/Personal-Portfolio-Website)
+</td>
+<td width="50%" valign="top">
 
-## Technologies
+### ◈ More experiments
 
-**Programming**
+I use my repositories to practise programming, explore new concepts, and document what I learn. More projects will appear here as they become ready.
 
-Python · Java · C · C++
+**Focus:** Consistent learning · Hands-on practice
 
-**Web development**
+[Browse all repositories](https://github.com/abhinavprasadsingh?tab=repositories)
 
-HTML · CSS · JavaScript
+</td>
+</tr>
+</table>
 
-**Tools**
+## `03` / TECHNOLOGY I WORK WITH
 
-Git · GitHub · VS Code
+<div align="center">
 
-## Currently working towards
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,git,github,vscode&theme=dark" alt="Technology icons" />
 
-- Building stronger Data Structures and Algorithms fundamentals
-- Improving Java and Python programming
-- Understanding core machine-learning concepts
-- Writing clearer documentation and tests
-- Developing useful projects and learning from feedback
+</div>
 
-## Explore my work
+<p align="center">
+<sub>My current toolkit reflects the languages and tools I have used or am actively learning—not a claim of expert-level proficiency.</sub>
+</p>
 
-Find my latest repositories, commits and contribution activity on GitHub.
+## `04` / THE LEARNING LOG
 
-[Explore all repositories →](https://github.com/abhinavprasadsingh?tab=repositories)
+- Building a stronger foundation in Data Structures and Object-Oriented Programming.
+- Exploring practical applications of AI and Machine Learning.
+- Improving how I design, document, and maintain software projects.
 
 ---
 
 <div align="center">
 
-**Learn continuously · Build thoughtfully · Improve consistently**
+**Curiosity → Code → Experiments → Progress**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E7490,55:243B63,100:101827&height=100&section=footer" width="100%" alt="Footer banner" />
+<sub>Designed and built with intention. Updated as the journey continues.</sub>
 
 </div>
