@@ -35,7 +35,7 @@ COLORS = {
     "FOURTH_QUARTILE": "#55e6ff",
 }
 LEVELS = list(COLORS.keys())
-MONO = "'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace"
+SANS = "'Segoe UI','Helvetica Neue',Arial,sans-serif"
 
 CELL, GAP = 16, 4
 STEP = CELL + GAP
@@ -90,7 +90,7 @@ def month_labels(weeks):
             continue
         date = datetime.strptime(days[0]["date"], "%Y-%m-%d")
         if date.month != last_month and col - last_col >= 3:
-            labels.append((col, date.strftime("%b").upper()))
+            labels.append((col, date.strftime("%b")))
             last_month, last_col = date.month, col
         elif date.month != last_month:
             last_month = date.month
@@ -100,7 +100,7 @@ def month_labels(weeks):
 def render_svg(weeks, total, stamp):
     cols = len(weeks)
     grid_w = cols * STEP
-    height = TOP + 7 * STEP + 62
+    height = TOP + 7 * STEP + 58
     out = []
     add = out.append
     add('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d" role="img" '
@@ -117,25 +117,16 @@ def render_svg(weeks, total, stamp):
     add('<rect width="%d" height="%d" fill="url(#bg)"/><rect width="%d" height="%d" fill="url(#grid)"/>' % (WIDTH, height, WIDTH, height))
     add('<rect x="1" y="1" width="%d" height="%d" rx="15" fill="none" stroke="#55E6FF" stroke-opacity="0.2"/>' % (WIDTH - 2, height - 2))
 
-    # HUD corner brackets
-    add('<g fill="none" stroke="#55E6FF" stroke-width="2" stroke-opacity="0.7">'
-        '<path d="M18 44 V18 H44"/><path d="M%d 44 V18 H%d"/><path d="M18 %d V%d H44"/><path d="M%d %d V%d H%d"/>'
-        '<animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/></g>'
-        % (WIDTH - 18, WIDTH - 44, height - 44, height - 18, WIDTH - 18, height - 44, height - 18, WIDTH - 44))
-
     # Title block
-    add('<text x="%d" y="48" font-family="%s" font-size="20" font-weight="700" fill="#EAFBFF" letter-spacing="4">CONTRIBUTION MATRIX</text>' % (LEFT, MONO))
-    add('<text x="%d" y="72" font-family="%s" font-size="13" fill="#55E6FF" letter-spacing="2">%s CONTRIBUTIONS // LAST 12 MONTHS</text>'
-        % (LEFT, MONO, format(total, ",")))
-    add('<circle cx="%d" cy="40" r="4" fill="#00D9FF" filter="url(#glow)"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>'
-        % (WIDTH - 150))
-    add('<text x="%d" y="44" text-anchor="end" font-family="%s" font-size="12" fill="#91A8B8" letter-spacing="2">LIVE DATA</text>' % (WIDTH - 62, MONO))
+    add('<text x="%d" y="50" font-family="%s" font-size="24" font-weight="700" fill="#EAFBFF">Contribution Activity</text>' % (LEFT, SANS))
+    add('<text x="%d" y="76" font-family="%s" font-size="14" fill="#55E6FF">%s contributions in the last year</text>' % (LEFT, SANS, format(total, ",")))
+    add('<text x="%d" y="50" text-anchor="end" font-family="%s" font-size="12" fill="#91A8B8">Updated %s UTC</text>' % (WIDTH - 62, SANS, stamp))
 
     # Month and weekday labels
     for col, name in month_labels(weeks):
-        add('<text x="%d" y="%d" font-family="%s" font-size="11" fill="#91A8B8" letter-spacing="1">%s</text>' % (LEFT + col * STEP, TOP - 12, MONO, name))
-    for row, name in ((1, "MON"), (3, "WED"), (5, "FRI")):
-        add('<text x="%d" y="%d" font-family="%s" font-size="11" fill="#91A8B8" letter-spacing="1">%s</text>' % (LEFT - 44, TOP + row * STEP + 12, MONO, name))
+        add('<text x="%d" y="%d" font-family="%s" font-size="12" fill="#91A8B8">%s</text>' % (LEFT + col * STEP, TOP - 12, SANS, name))
+    for row, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
+        add('<text x="%d" y="%d" font-family="%s" font-size="12" fill="#91A8B8">%s</text>' % (LEFT - 46, TOP + row * STEP + 13, SANS, name))
 
     # Cells
     for col, week in enumerate(weeks):
@@ -160,12 +151,10 @@ def render_svg(weeks, total, stamp):
 
     # Legend
     ly = TOP + 7 * STEP + 22
-    add('<text x="%d" y="%d" font-family="%s" font-size="11" fill="#91A8B8" letter-spacing="2">LESS</text>' % (LEFT, ly + 11, MONO))
+    add('<text x="%d" y="%d" font-family="%s" font-size="12" fill="#91A8B8">Less</text>' % (LEFT, ly + 12, SANS))
     for i, level in enumerate(LEVELS):
-        add('<rect x="%d" y="%d" width="14" height="14" rx="3" fill="%s"/>' % (LEFT + 48 + i * 20, ly, COLORS[level]))
-    add('<text x="%d" y="%d" font-family="%s" font-size="11" fill="#91A8B8" letter-spacing="2">MORE</text>' % (LEFT + 156, ly + 11, MONO))
-    add('<text x="%d" y="%d" text-anchor="end" font-family="%s" font-size="11" fill="#91A8B8" letter-spacing="2">UPDATED %s UTC</text>'
-        % (WIDTH - 62, ly + 11, MONO, stamp))
+        add('<rect x="%d" y="%d" width="14" height="14" rx="3" fill="%s"/>' % (LEFT + 38 + i * 20, ly, COLORS[level]))
+    add('<text x="%d" y="%d" font-family="%s" font-size="12" fill="#91A8B8">More</text>' % (LEFT + 146, ly + 12, SANS))
     add("</g></svg>")
     return "\n".join(out)
 

@@ -13,7 +13,7 @@
   <line x1="60" y1="24" x2="1140" y2="24" stroke="#55E6FF" stroke-opacity="0.35" stroke-dasharray="2 8"><animate attributeName="stroke-dashoffset" from="0" to="-80" dur="3s" repeatCount="indefinite"/></line>
   <g text-anchor="middle">
     <text x="600" y="62" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#EAFBFF" textLength="400" lengthAdjust="spacingAndGlyphs">ABHINAV PRASAD SINGH</text>
-    <text x="600" y="90" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#91A8B8" textLength="760" lengthAdjust="spacing">COMPUTER SCIENCE STUDENT  //  ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING  //  BUILDING PRACTICAL PROJECTS</text>
+    <text x="600" y="90" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#91A8B8" textLength="760" lengthAdjust="spacing">COMPUTER SCIENCE STUDENT   |   ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING   |   BUILDING PRACTICAL PROJECTS</text>
   </g>
   <circle cy="104" r="3" fill="#00D9FF" filter="url(#glow)"><animate attributeName="cx" values="60;1140;60" dur="8s" repeatCount="indefinite"/></circle>
 </svg>

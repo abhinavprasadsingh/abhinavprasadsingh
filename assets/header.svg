@@ -1,124 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Abhinav Prasad Singh - Computer Science Student, Artificial Intelligence and Machine Learning">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Abhinav Prasad Singh - Computer Science Student, Artificial Intelligence and Machine Learning">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#030712"/>
       <stop offset="0.55" stop-color="#071827"/>
       <stop offset="1" stop-color="#05324a"/>
     </linearGradient>
-    <radialGradient id="auraL" cx="190" cy="170" r="270" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00D9FF" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="auraR" cx="1030" cy="170" r="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00D9FF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#55E6FF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#55E6FF" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#55E6FF" stop-opacity="0"/>
+    <radialGradient id="orbA"><stop offset="0" stop-color="#00D9FF" stop-opacity="0.38"/><stop offset="1" stop-color="#00D9FF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orbB"><stop offset="0" stop-color="#3A8DFF" stop-opacity="0.34"/><stop offset="1" stop-color="#3A8DFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#55E6FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#55E6FF" stop-opacity="0.02"/>
     </linearGradient>
-    <linearGradient id="scanline" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#55E6FF" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#55E6FF" stop-opacity="0.8"/>
       <stop offset="1" stop-color="#55E6FF" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M30 0H0V30" fill="none" stroke="#55E6FF" stroke-opacity="0.06"/>
-    </pattern>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="soft" x="-20%" y="-80%" width="140%" height="260%">
-      <feGaussianBlur stdDeviation="9"/>
-    </filter>
-    <clipPath id="frame"><rect width="1200" height="340" rx="16"/></clipPath>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1" fill="#55E6FF" fill-opacity="0.12"/></pattern>
+    <filter id="soft" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="300" rx="18"/></clipPath>
+    <clipPath id="shine"><rect x="240" y="90" width="80" height="70"><animate attributeName="x" from="240" to="900" dur="7s" repeatCount="indefinite"/></rect></clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="url(#bg)"/>
-    <rect width="1200" height="340" fill="url(#grid)"/>
-    <rect width="1200" height="340" fill="url(#auraL)"/>
-    <rect width="1200" height="340" fill="url(#auraR)"/>
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
 
-    <rect y="0" width="280" height="340" fill="url(#beam)">
-      <animate attributeName="x" from="-280" to="1200" dur="8s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="0" y="-4" width="1200" height="2" fill="url(#scanline)" opacity="0.5">
-      <animate attributeName="y" from="-4" to="340" dur="5.5s" repeatCount="indefinite"/>
-    </rect>
-
-    <!-- Primary reactor -->
-    <g transform="translate(190 170)" fill="none" stroke="#55E6FF" filter="url(#glow)">
-      <circle r="124" stroke-opacity="0.22"/>
-      <circle r="113" stroke-width="6" stroke-dasharray="1.5 9" stroke-opacity="0.55">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="95" stroke="#00D9FF" stroke-width="9" stroke-dasharray="58 22" stroke-opacity="0.6">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="77" stroke-width="1.5" stroke-opacity="0.85"/>
-      <circle r="67" stroke="#EAFBFF" stroke-width="3" stroke-dasharray="90 40" stroke-opacity="0.5">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
-      </circle>
-      <polygon points="0,-44 38.1,22 -38.1,22" stroke-width="1.5" stroke-opacity="0.9">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="30s" repeatCount="indefinite"/>
-      </polygon>
-      <circle r="22" fill="#55E6FF" fill-opacity="0.16" stroke-width="2">
-        <animate attributeName="r" values="22;26;22" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="9" fill="#EAFBFF" stroke="none">
-        <animate attributeName="opacity" values="0.65;1;0.65" dur="3s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <!-- Secondary reactor -->
-    <g transform="translate(1030 170)" fill="none" stroke="#55E6FF" filter="url(#glow)">
-      <circle r="78" stroke-opacity="0.2"/>
-      <circle r="70" stroke-width="5" stroke-dasharray="1.5 8" stroke-opacity="0.5">
-        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="36s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="57" stroke="#00D9FF" stroke-width="6" stroke-dasharray="36 14" stroke-opacity="0.55">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="44" stroke-width="1.2" stroke-opacity="0.8"/>
-      <circle r="12" fill="#55E6FF" fill-opacity="0.18" stroke-width="1.5">
-        <animate attributeName="r" values="12;15;12" dur="3.4s" repeatCount="indefinite"/>
-      </circle>
-      <circle r="5" fill="#EAFBFF" stroke="none">
-        <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <!-- HUD corner brackets -->
-    <g fill="none" stroke="#55E6FF" stroke-width="2" stroke-opacity="0.7">
-      <path d="M18 46 V18 H46"/><path d="M1182 46 V18 H1154"/>
-      <path d="M18 294 V322 H46"/><path d="M1182 294 V322 H1154"/>
-      <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/>
-    </g>
-
-    <!-- Identity -->
-    <g text-anchor="middle">
-      <text x="600" y="162" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="40" font-weight="700" fill="#00D9FF" filter="url(#soft)" textLength="560" lengthAdjust="spacingAndGlyphs" opacity="0.5">ABHINAV PRASAD SINGH<animate attributeName="opacity" values="0.3;0.65;0.3" dur="4s" repeatCount="indefinite"/></text>
-      <text x="600" y="162" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="40" font-weight="700" fill="#EAFBFF" textLength="560" lengthAdjust="spacingAndGlyphs">ABHINAV PRASAD SINGH<animate attributeName="opacity" from="0" to="1" dur="1.4s" fill="freeze"/></text>
-      <line x1="420" y1="184" x2="780" y2="184" stroke="#55E6FF" stroke-opacity="0.45"/>
-      <circle cy="184" r="3" fill="#00D9FF" filter="url(#glow)">
-        <animate attributeName="cx" values="420;780;420" dur="6s" repeatCount="indefinite"/>
-      </circle>
-      <text x="600" y="214" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#55E6FF" textLength="330" lengthAdjust="spacing" >COMPUTER SCIENCE STUDENT<animate attributeName="opacity" keyTimes="0;0.333;1" values="0;0;1" dur="1.8s" fill="freeze"/></text>
-      <text x="600" y="238" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#EAFBFF" textLength="500" lengthAdjust="spacing" >ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING<animate attributeName="opacity" keyTimes="0;0.4545;1" values="0;0;1" dur="2.2s" fill="freeze"/></text>
-      <text x="600" y="268" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#91A8B8" textLength="400" lengthAdjust="spacing" >SRM INSTITUTE OF SCIENCE AND TECHNOLOGY<animate attributeName="opacity" keyTimes="0;0.538;1" values="0;0;1" dur="2.6s" fill="freeze"/></text>
-    </g>
-
-    <!-- Status bar -->
-    <line x1="40" y1="304" x2="1160" y2="304" stroke="#55E6FF" stroke-opacity="0.35" stroke-dasharray="2 8">
-      <animate attributeName="stroke-dashoffset" from="0" to="-80" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <circle cx="44" cy="322" r="3.5" fill="#00D9FF" filter="url(#glow)">
-      <animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/>
+    <!-- drifting light -->
+    <circle cx="240" cy="90" r="210" fill="url(#orbA)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;90 40;0 0" dur="14s" repeatCount="indefinite"/>
     </circle>
-    <text x="56" y="326" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#91A8B8" letter-spacing="2">STATUS: ONLINE</text>
-    <text x="1156" y="326" text-anchor="end" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11" fill="#91A8B8" letter-spacing="2">MODE: LEARNING / BUILDING</text>
+    <circle cx="980" cy="210" r="230" fill="url(#orbB)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-100 -30;0 0" dur="17s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="10" r="160" fill="url(#orbA)" opacity="0.6">
+      <animateTransform attributeName="transform" type="translate" values="0 0;50 30;0 0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- rising particles -->
+    <g fill="#55E6FF" filter="url(#glow)">
+      <circle cx="120" r="2"><animate attributeName="cy" from="300" to="20" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" repeatCount="indefinite"/></circle>
+      <circle cx="260" r="1.6"><animate attributeName="cy" from="300" to="30" dur="13s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="13s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="410" r="2.2"><animate attributeName="cy" from="300" to="40" dur="11s" begin="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="11s" begin="5s" repeatCount="indefinite"/></circle>
+      <circle cx="560" r="1.5"><animate attributeName="cy" from="300" to="20" dur="14s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.6;0" dur="14s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="700" r="2"><animate attributeName="cy" from="300" to="30" dur="12s" begin="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="12s" begin="7s" repeatCount="indefinite"/></circle>
+      <circle cx="850" r="1.8"><animate attributeName="cy" from="300" to="20" dur="15s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="15s" begin="3s" repeatCount="indefinite"/></circle>
+      <circle cx="990" r="2.2"><animate attributeName="cy" from="300" to="40" dur="10s" begin="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10s" begin="6s" repeatCount="indefinite"/></circle>
+      <circle cx="1100" r="1.6"><animate attributeName="cy" from="300" to="20" dur="12s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0" dur="12s" begin="4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- flowing waves -->
+    <path fill="url(#waveFill)" d="M-300 276 Q-225 252 -150 276 T0 276 T150 276 T300 276 T450 276 T600 276 T750 276 T900 276 T1050 276 T1200 276 T1350 276 T1500 276 V300 H-300 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-300 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+    <path fill="#3A8DFF" fill-opacity="0.12" d="M-300 288 Q-225 268 -150 288 T0 288 T150 288 T300 288 T450 288 T600 288 T750 288 T900 288 T1050 288 T1200 288 T1350 288 T1500 288 V300 H-300 Z">
+      <animateTransform attributeName="transform" type="translate" from="-300 0" to="0 0" dur="19s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- identity -->
+    <g text-anchor="middle">
+      <text x="600" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="700" fill="#00D9FF" filter="url(#soft)" textLength="600" lengthAdjust="spacingAndGlyphs" opacity="0.45">ABHINAV PRASAD SINGH<animate attributeName="opacity" values="0.25;0.55;0.25" dur="5s" repeatCount="indefinite"/></text>
+      <text x="600" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="700" fill="#EAFBFF" textLength="600" lengthAdjust="spacingAndGlyphs">ABHINAV PRASAD SINGH<animate attributeName="opacity" from="0" to="1" dur="1.4s" fill="freeze"/></text>
+      <text x="600" y="142" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="54" font-weight="700" fill="#55E6FF" textLength="600" lengthAdjust="spacingAndGlyphs" clip-path="url(#shine)">ABHINAV PRASAD SINGH</text>
+      <rect x="440" y="162" width="320" height="1.5" fill="url(#rule)"/>
+      <circle cy="162.75" r="3" fill="#EAFBFF" filter="url(#glow)"><animate attributeName="cx" values="440;760;440" dur="6s" repeatCount="indefinite"/></circle>
+      <text x="600" y="202" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="20" font-weight="600" fill="#55E6FF" textLength="330" lengthAdjust="spacing">COMPUTER SCIENCE STUDENT<animate attributeName="opacity" keyTimes="0;0.333;1" values="0;0;1" dur="1.8s" fill="freeze"/></text>
+      <text x="600" y="230" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="16" fill="#EAFBFF" textLength="440" lengthAdjust="spacing">ARTIFICIAL INTELLIGENCE &amp; MACHINE LEARNING<animate attributeName="opacity" keyTimes="0;0.4545;1" values="0;0;1" dur="2.2s" fill="freeze"/></text>
+      <text x="600" y="256" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="13" fill="#91A8B8" textLength="440" lengthAdjust="spacing">SRM Institute of Science and Technology, Kattankulathur<animate attributeName="opacity" keyTimes="0;0.538;1" values="0;0;1" dur="2.6s" fill="freeze"/></text>
+    </g>
   </g>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#55E6FF" stroke-opacity="0.2"/>
 </svg>
