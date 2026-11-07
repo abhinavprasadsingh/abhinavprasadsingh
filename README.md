@@ -14,9 +14,11 @@
 
 <!--AVATAR:START-->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/main/assets/avatar-card.svg?v=1794033354" width="100%" alt="Abhinav Prasad Singh" />
+  <img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/main/assets/status-badge.svg?v=1794034528" width="100%" alt="Abhinav Prasad Singh" />
 </div>
 <!--AVATAR:END-->
+
+
 
 
 

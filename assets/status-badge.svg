@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 320" width="900" height="320" role="img" aria-label="Abhinav Prasad Singh">
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e2e8f0"/><stop offset="1" stop-color="#7c8db5"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#64748b"/><stop offset="1" stop-color="#cbd5e1"/></linearGradient>
+<linearGradient id="bgc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070b"/><stop offset="0.55" stop-color="#0a0f1c"/><stop offset="1" stop-color="#120d1a"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#94a3b8" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.06"/><stop offset="1" stop-color="#64748b" stop-opacity="0.55"/></linearGradient>
+<pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.035"/></pattern>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.75"><stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.65"/></radialGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+<clipPath id="panel"><rect x="24" y="24" width="852" height="272" rx="16"/></clipPath>
+<clipPath id="av"><circle cx="140" cy="168" r="64"/></clipPath>
+</defs>
+<rect width="900" height="320" rx="18" fill="url(#bgc)"/>
+<rect width="900" height="320" rx="18" fill="url(#grid)"/>
+<rect width="900" height="320" rx="18" filter="url(#grain)" opacity="0.05"/>
+<rect width="900" height="320" rx="18" fill="url(#vig)"/>
+<rect x="1" y="1" width="898" height="318" rx="17" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+<ellipse cx="200" cy="60" rx="240" ry="100" fill="#64748b" opacity="0.08"><animate attributeName="cx" values="200;340;200" dur="14s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="740" cy="300" rx="220" ry="90" fill="#94a3b8" opacity="0.07"><animate attributeName="cx" values="740;600;740" dur="16s" repeatCount="indefinite"/></ellipse>
+<rect x="24" y="24" width="852" height="272" rx="16" fill="#070a10" fill-opacity="0.88" stroke="url(#edge)" stroke-width="1.2"/>
+<g clip-path="url(#panel)"><polygon points="0,0 90,0 40,320 -50,320" fill="#ffffff" opacity="0.045"><animateTransform attributeName="transform" type="translate" values="-150 0;1000 0;1000 0" keyTimes="0;0.4;1" dur="8s" repeatCount="indefinite"/></polygon></g>
+<text x="52" y="54" font-family="Consolas, 'Courier New', monospace" font-size="10" letter-spacing="2" fill="#6b7385">DEVELOPER PROFILE</text>
+<text x="848" y="54" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#6b7385">@abhinavprasadsingh</text>
+<line x1="48" y1="64" x2="852" y2="64" stroke="#222938"/>
+
+<circle cx="140" cy="168" r="90" fill="#94a3b8" opacity="0.06"><animate attributeName="r" values="82;100;82" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="140" cy="168" r="78" fill="none" stroke="#94a3b8" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="6 10"><animateTransform attributeName="transform" type="rotate" from="0 140 168" to="360 140 168" dur="24s" repeatCount="indefinite"/></circle>
+<circle cx="140" cy="168" r="68" fill="#101826" stroke="#475569" stroke-width="2"/>
+<g><circle cx="140" cy="90" r="5" fill="#cbd5e1"/><circle cx="140" cy="90" r="10" fill="#cbd5e1" opacity="0.2"><animate attributeName="r" values="6;12;6" dur="2.4s" repeatCount="indefinite"/></circle><animateTransform attributeName="transform" type="rotate" from="0 140 168" to="360 140 168" dur="10s" repeatCount="indefinite"/></g>
+<text x="140" y="187" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="2" fill="url(#acc)" opacity="0">AS<animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/></text>
+<text x="276" y="118" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="url(#acc)" opacity="0">Abhinav Prasad Singh<animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.3s" fill="freeze"/></text>
+<text x="276" y="144" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8" opacity="0">Developer | Student<animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.6s" fill="freeze"/></text>
+<g opacity="0">
+<rect x="276" y="158" width="205" height="28" rx="14" fill="#4ade80" fill-opacity="0.08" stroke="#4ade80" stroke-opacity="0.45"/>
+<circle cx="294" cy="172" r="4" fill="#4ade80"/>
+<circle cx="294" cy="172" r="4" fill="#4ade80"><animate attributeName="r" values="4;11;4" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite"/></circle>
+<text x="310" y="177" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#cbd5e1">Open to opportunities</text>
+<animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.9s" fill="freeze"/>
+</g>
+<text x="276" y="214" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#cbd5e1">Python</text>
+<rect x="390" y="206" width="400" height="6" rx="3" fill="#1e293b"/>
+<rect x="390" y="206" width="0" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" values="0;360;360" keyTimes="0;0.3;1" dur="9s" begin="1.2s" repeatCount="indefinite"/></rect>
+<text x="848" y="214" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#94a3b8">90%</text>
+<text x="276" y="236" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#cbd5e1">JavaScript</text>
+<rect x="390" y="228" width="400" height="6" rx="3" fill="#1e293b"/>
+<rect x="390" y="228" width="0" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" values="0;300;300" keyTimes="0;0.3;1" dur="9s" begin="1.5s" repeatCount="indefinite"/></rect>
+<text x="848" y="236" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#94a3b8">75%</text>
+<text x="276" y="258" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#cbd5e1">Git</text>
+<rect x="390" y="250" width="400" height="6" rx="3" fill="#1e293b"/>
+<rect x="390" y="250" width="0" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" values="0;260;260" keyTimes="0;0.3;1" dur="9s" begin="1.7s" repeatCount="indefinite"/></rect>
+<text x="848" y="258" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#94a3b8">65%</text>
+<text x="276" y="280" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#cbd5e1">Linux</text>
+<rect x="390" y="272" width="400" height="6" rx="3" fill="#1e293b"/>
+<rect x="390" y="272" width="0" height="6" rx="3" fill="url(#bar)"><animate attributeName="width" values="0;220;220" keyTimes="0;0.3;1" dur="9s" begin="2.0s" repeatCount="indefinite"/></rect>
+<text x="848" y="280" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#94a3b8">55%</text>
+</svg>
