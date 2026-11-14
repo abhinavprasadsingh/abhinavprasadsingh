@@ -1,5 +1,3 @@
-
-
 <div align="center">
 
 <img src="./assets/header.svg" width="100%" alt="Abhinav Prasad Singh - Computer Science Student, Artificial Intelligence and Machine Learning"/>
@@ -11,21 +9,6 @@
 </div>
 
 <img src="./assets/section-about.svg" width="100%" alt="01 About"/>
-
-<!--AVATAR:START-->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/abhinavprasadsingh/abhinavprasadsingh/main/assets/status-badge.svg?v=1794034528" width="100%" alt="Abhinav Prasad Singh" />
-</div>
-<!--AVATAR:END-->
-
-
-
-
-
-
-
-
-
 
 I'm **Abhinav Prasad Singh**, a second-year B.Tech student in Computer Science and Engineering, specializing in Artificial Intelligence and Machine Learning at **SRM Institute of Science and Technology, Kattankulathur**. I expect to graduate in 2029.
 
