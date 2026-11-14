@@ -10,6 +10,8 @@
 
 <img src="./assets/section-about.svg" width="100%" alt="01 About"/>
 
+<img align="right" src="./assets/avatar.svg" width="190" alt="Abstract animated tech avatar"/>
+
 I'm **Abhinav Prasad Singh**, a second-year B.Tech student in Computer Science and Engineering, specializing in Artificial Intelligence and Machine Learning at **SRM Institute of Science and Technology, Kattankulathur**. I expect to graduate in 2029.
 
 I learn by building. My projects so far cover media analysis with computer vision, URL risk analysis, and web development, and I use them to strengthen my fundamentals in programming, data structures, and machine learning.
