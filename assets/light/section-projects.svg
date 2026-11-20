@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 56" width="1200" height="56" role="img" aria-label="Selected Projects">
+<defs><linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="289" y1="0" x2="1140" y2="0"><stop offset="0" stop-color="#0a7a99" stop-opacity="0.6"/><stop offset="1" stop-color="#0a7a99" stop-opacity="0"/></linearGradient><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="1" y="1" width="1198" height="54" rx="12" fill="#f4f9fc" stroke="#0a7a99" stroke-opacity="0.16"/>
+<rect x="22" y="14" width="4" height="28" rx="2" fill="#0891b2" filter="url(#glow)"><animate attributeName="opacity" values="0.55;1;0.55" dur="3.2s" repeatCount="indefinite"/></rect>
+<text x="44" y="36" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#0b2433" textLength="221" lengthAdjust="spacingAndGlyphs">Selected Projects</text>
+<rect x="289" y="27.25" width="851" height="1.5" fill="url(#rule)"/>
+<circle cy="28" r="2.6" fill="#0b2433" filter="url(#glow)"><animate attributeName="cx" values="289;1140" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.8;1" dur="4s" repeatCount="indefinite"/></circle>
+<text x="1176" y="34" text-anchor="end" font-family="'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="14" fill="#53697a">02</text>
+</svg>
